@@ -26,8 +26,6 @@ attr_accessor :name
       artist
     else
       artist = self.new(name)
-      @@all << artist
-      artist
     end
   end
   
