@@ -14,7 +14,7 @@ attr_accessor :path
         end
         puts "names=#{filenames}"
         filenames
-    end
+  end
     
   def import
     files.each { |filename| Song.new_by_filename(filename) }
